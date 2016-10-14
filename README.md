@@ -1,1 +1,1 @@
-# EXTERNAL-INTERRUPT-LPC2148
+# Interface Buzzer to demonstrate how External Interrupt works with LPC2148 Microcontroller
