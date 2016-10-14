@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\extint.o"
+--strict --scatter ".\ExtInt_LPC2148.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ExtInt_LPC2148.map" -o .\ExtInt_LPC2148.axf
